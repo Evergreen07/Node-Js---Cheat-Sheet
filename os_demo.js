@@ -8,10 +8,10 @@ console.log(os_.type());
 console.log(os_.version());
 
 //Hostname
-console.log(os.hostname());
+console.log(os_.hostname());
 
 //Network Interfaces
-console.log(os.networkInterfaces());
+console.log(os_.networkInterfaces());
 
 //Platform
 console.log(os_.platform());
@@ -30,7 +30,7 @@ console.log(os_.totalmem());
 console.log(os_.homedir());
 
 //Temporary Directory
-console.log(os.tmpdir());
+console.log(os_.tmpdir());
 
 //Machine Uptime 
 console.log(os_.uptime());
